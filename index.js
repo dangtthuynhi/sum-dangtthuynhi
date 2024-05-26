@@ -26,4 +26,6 @@ function sum(...args) {
 }
 
 
-exports.sumIntegers = sumIntegers;
+module.exports = {
+    sumIntegers
+};
