@@ -22,3 +22,84 @@
 <li><a href="#contributing">Contributing</a></li>
 <li><a href="#acknowledgments">Acknowledgments</a></li>
 </ul>
+<h2>Installation</h2>
+
+<p>You can install the library using npm:</p>
+
+<pre><code>npm install sum-library
+</code></pre>
+
+<h2>Usage</h2>
+
+<h3>Importing the Library</h3>
+
+<p>To use the <code>sum-library</code> in your project, you need to import it first:</p>
+
+<pre><code>const sum = require('sum-library');
+</code></pre>
+
+<h3>Functions</h3>
+
+<h4><code>sumIntegers(...args)</code></h4>
+
+<p>This function calculates the sum of integers passed as arguments.</p>
+
+<h5>Parameters:</h5>
+
+<ul>
+<li><code>...args</code>: Integers to be summed.</li>
+</ul>
+
+<p>Example:</p>
+
+<pre><code>const result = sum.sumIntegers(1, 2, 3, 4, 5);
+console.log(result); // Output: 15
+</code></pre>
+
+<h4><code>sumFloats(...args)</code></h4>
+
+<p>This function calculates the sum of floats passed as arguments.</p>
+
+<h5>Parameters:</h5>
+
+<ul>
+<li><code>...args</code>: Floats to be summed.</li>
+</ul>
+
+<p>Example:</p>
+
+<pre><code>const result = sum.sumFloats(1.5, 2.3, 3.7);
+console.log(result); // Output: 7.5
+</code></pre>
+
+<h4><code>sumArrays(...args)</code></h4>
+
+<p>This function calculates the sum of arrays of numbers passed as arguments.</p>
+
+<h5>Parameters:</h5>
+
+<ul>
+<li><code>...args</code>: Arrays of numbers to be summed.</li>
+</ul>
+
+<p>Example:</p>
+
+<pre><code>const result = sum.sumArrays([1, 2, 3], [4, 5, 6]);
+console.log(result); // Output: [5, 7, 9]
+</code></pre>
+
+<h4><code>sum(...args)</code></h4>
+
+<p>This function calculates the sum of any type of number passed as arguments.</p>
+
+<h5>Parameters:</h5>
+
+<ul>
+<li><code>...args</code>: Numbers to be summed.</li>
+</ul>
+
+<p>Example:</p>
+
+<pre><code>const result = sum.sum(1, 2.5, [3, 4]);
+console.log(result); // Output: 10.5
+</code></pre>
