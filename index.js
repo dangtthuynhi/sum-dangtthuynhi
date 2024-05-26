@@ -16,5 +16,14 @@ function sumArrays(...args) {
     }, 0);
 }
 
+function sum(...args) {
+    return args.reduce((acc, val) => {
+        if (Array.isArray(val)) {
+            return acc + sumArrays(val);
+        }
+        return acc + (typeof val === 'number' ? val : 0);
+    }, 0);
+}
+
 
 exports.sumIntegers = sumIntegers;
