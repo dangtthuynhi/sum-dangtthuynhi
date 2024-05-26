@@ -28,5 +28,6 @@ function sum(...args) {
 
 module.exports = {
     sumIntegers,
-    sumFloats
+    sumFloats,
+    sumArrays
 };
