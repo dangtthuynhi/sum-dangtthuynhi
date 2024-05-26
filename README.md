@@ -26,7 +26,7 @@
 
 <p>You can install the library using npm:</p>
 
-<pre><code>npm install sum-library
+<pre><code>npm install sum-dangtthuynhi
 </code></pre>
 
 <h2>Usage</h2>
@@ -103,3 +103,15 @@ console.log(result); // Output: [5, 7, 9]
 <pre><code>const result = sum.sum(1, 2.5, [3, 4]);
 console.log(result); // Output: 10.5
 </code></pre>
+
+<h2>License</h2>
+
+<p>This project is licensed under the MIT License - see the <a href="./LICENSE">LICENSE</a> file for details.</p>
+
+<h2>Contributing</h2>
+
+<p>Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.</p>
+
+<h2>Acknowledgments</h2>
+
+<p>Thank you to all the contributors and open-source community for their support and dedication.</p>
