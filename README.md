@@ -33,9 +33,9 @@
 
 <h3>Importing the Library</h3>
 
-<p>To use the <code>sum-library</code> in your project, you need to import it first:</p>
+<p>To use the <code>sum-dangtthuynhi</code> in your project, you need to import it first:</p>
 
-<pre><code>const sum = require('sum-library');
+<pre><code>const sum = require('sum-dangtthuynhi');
 </code></pre>
 
 <h3>Functions</h3>
